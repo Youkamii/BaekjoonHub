@@ -4,7 +4,7 @@ class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
         List<Integer> answerList = new ArrayList<>();
 		int[] jobDone = new int[progresses.length];
-		int a = 0;
+		int a = 1;
 		int b = 1;
 
 		for (int i = 0; i < progresses.length; i++)
