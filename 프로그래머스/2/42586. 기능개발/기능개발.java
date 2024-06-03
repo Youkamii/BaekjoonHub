@@ -5,7 +5,7 @@ class Solution {
         List<Integer> answerList = new ArrayList<>();
 		int[] jobDone = new int[progresses.length];
 		int a = 1;
-		int b = 1;
+		int b = 0;
 
 		for (int i = 0; i < progresses.length; i++)
 			jobDone[i] = ((100 - progresses[i] - 1) / speeds[i] + 1);
