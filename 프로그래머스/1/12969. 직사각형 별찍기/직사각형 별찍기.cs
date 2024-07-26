@@ -4,7 +4,7 @@ public class Example
 {
     public static void Main()
     {
-        String[] s; // a, b
+        String[] s;
 
         Console.Clear();
         s = Console.ReadLine().Split(' ');
