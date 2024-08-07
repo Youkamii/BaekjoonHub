@@ -18,8 +18,7 @@ public class Example
                 Console.Write("*");
             }
             Console.WriteLine();
-        }
-        
+        }        
         
         
     }
