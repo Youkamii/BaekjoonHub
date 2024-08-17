@@ -7,11 +7,10 @@ public class Example
         String[] s;
 
         Console.Clear();
-        s = Console.ReadLine().Split(' ');
+        String[] s = Console.ReadLine().Split(' ');
 
         int a = Int32.Parse(s[0]);
         int b = Int32.Parse(s[1]);
-
 
         for (int j = 0; j < b; j++) {
             for (int i = 0; i < a; i++) {
