@@ -4,7 +4,6 @@ public class Example
 {
     public static void Main()
     {
-        String[] s;
 
         Console.Clear();
         String[] s = Console.ReadLine().Split(' ');
