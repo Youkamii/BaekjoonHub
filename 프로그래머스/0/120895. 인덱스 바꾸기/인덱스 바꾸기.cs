@@ -7,7 +7,7 @@ public class Solution {
         char tmp = charArray[num1];
         charArray[num1] = charArray[num2];
         charArray[num2] = tmp;
-        
+         
         return new string(charArray);
     }
 }
