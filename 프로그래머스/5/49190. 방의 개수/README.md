@@ -1,10 +1,10 @@
 # [level 5] 방의 개수 - 49190 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/49190?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/49190?language=javascript) 
 
 ### 성능 요약
 
-메모리: 46.8 MB, 시간: 320.88 ms
+메모리: 106 MB, 시간: 493.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 27일 18:00:04
+2024년 10월 27일 18:06:58
 
 ### 문제 설명
 
