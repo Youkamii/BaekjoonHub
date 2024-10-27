@@ -12,6 +12,7 @@ class Solution {
 			} 
 			answer = answer * 10 + s.charAt(i) - 48;
 		}
+        
 		return flag ? answer * -1 : answer;
     }
 }
