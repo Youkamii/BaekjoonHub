@@ -16,7 +16,7 @@ function solution(arrows) {
     let x = 0, y = 0;
     visitedNodes.add(`${x},${y}`);
     let roomCount = 0;
-
+ 
     for (let arrow of arrows) {
         const dx = direction[arrow][0];
         const dy = direction[arrow][1];
