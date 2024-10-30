@@ -11,7 +11,7 @@ class Solution {
                     break;
                 }
                 else if (sum > n) {
-                    break;
+                    break; 
                 }
             }
         }        
