@@ -5,7 +5,7 @@ class Solution {
     public String[] solution(String[] players, String[] callings) {
         Map<String, Integer> playerRanks = new HashMap<>();
 		String tmpName;
-		int tmpRank;
+		int tmpRank; 
 
 		for (int i = 0; i < players.length; i++)
 			playerRanks.put(players[i], i);
