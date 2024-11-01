@@ -8,7 +8,7 @@ class Solution {
 		for (int i : lost)
 			spare[i - 1]--;
 		for (int i : reserve)
-			spare[i - 1]++;
+			spare[i - 1]++; 
 
 		for (int i = 0; i < spare.length; i++) {
 			if (spare[i] == -1) {
