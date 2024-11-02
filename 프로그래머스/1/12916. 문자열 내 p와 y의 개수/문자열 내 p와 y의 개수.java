@@ -6,7 +6,7 @@ class Solution {
 				pH++;
 			else if (s.charAt(i) == 'y' || s.charAt(i) == 'Y')
 				pH--;
-		} 
+		}
 		return (pH == 0) ? true : false;
     }
 }
