@@ -7,7 +7,6 @@ class Solution {
                 return i;
             tmp = tmp % 2 == 0 ? tmp / 2 : tmp * 3 + 1;
 		}
-
 		return -1;
     }
 }
