@@ -11,7 +11,6 @@ class Solution {
 		}
 		integerList.sort(Comparator.naturalOrder());
 		answer = integerList.stream().mapToInt(i -> i).toArray();
-		
 
 		return (integerList.isEmpty()) ? new int[]{-1} : answer;
     }
