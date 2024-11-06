@@ -9,7 +9,7 @@ class Solution {
 
 		for (char c : X.toCharArray())
 			tmpX.put(c, tmpX.getOrDefault(c, 0) + 1);
-		for (char c : Y.toCharArray())
+		for (char c : Y.toCharArray()) 
 			tmpY.put(c, tmpY.getOrDefault(c, 0) + 1);
 		for (char c : tmpX.keySet()) {
 			if (tmpY.containsKey(c)) {
