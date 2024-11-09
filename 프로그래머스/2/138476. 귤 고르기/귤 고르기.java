@@ -10,7 +10,7 @@ class Solution {
 		List<Map.Entry<Integer, Integer>> entries = new ArrayList<>(tangerineSize.entrySet());
 
 		entries.sort((a, b) -> b.getValue().compareTo(a.getValue()));
-
+ 
 		int box = 0;
 		for (Map.Entry<Integer, Integer> entry : entries) {
 			if (box >= k) break;
