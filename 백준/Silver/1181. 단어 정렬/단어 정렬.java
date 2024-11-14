@@ -37,7 +37,5 @@ class Main {
         }
 
         bw.flush();
-        br.close();
-        bw.close();
     }
 }
