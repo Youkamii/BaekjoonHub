@@ -1,36 +1,34 @@
 import java.io.*;
-import java.util.*;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
 
-class Main {
-    static int stoi (String s) {
-        return Integer.parseInt(s);
-    }
+public class Main {
 
-    public static void main (String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        StringTokenizer st = new StringTokenizer(br.readLine());
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int count = stoi(br.readLine());
-        Set<String> set = new HashSet<>();
+        int N = Integer.parseInt(bufferedReader.readLine());
 
-        for (int i = 0; i < count; i++)
-            set.add(br.readLine());
+        Set<String> alphabetSet = new TreeSet<>();
 
-        Map<Integer, List<String>> map = new HashMap<>();
-        for (String str : set) {
-            int sl = str.length();
-            map.putIfAbsent(sl, new ArrayList<>());
-            map.get(sl).add(str);
+        for (int i = 0; i < N; i++) {
+            alphabetSet.add(bufferedReader.readLine());
         }
 
-        for (int i = 1; i <= 50; i++) {
-            if (!map.containsKey(i)) continue;
+        List<String> sortedByLength = alphabetSet.stream()
+                .sorted(Comparator.comparingInt(String::length)).collect(Collectors.toList());
 
-            List<String> list = map.get(i);
-            Collections.sort(list);
-
-            for (String s : list)
-                System.out.println(s);
+        for (String alphabet : sortedByLength) {
+            bufferedWriter.write(alphabet);
+            bufferedWriter.newLine();
         }
+
+        bufferedWriter.flush();
+        bufferedWriter.close();
+        bufferedReader.close();
     }
 }
