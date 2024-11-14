@@ -1,34 +1,43 @@
 import java.io.*;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.stream.Collectors;
+import java.util.*;
 
-public class Main {
+class Main {
+    static int stoi(String s) {
+        return Integer.parseInt(s);
+    }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int N = Integer.parseInt(bufferedReader.readLine());
+        int count = stoi(br.readLine());
+        List<TreeSet<String>> lengthList = new ArrayList<>();
 
-        Set<String> alphabetSet = new TreeSet<>();
-
-        for (int i = 0; i < N; i++) {
-            alphabetSet.add(bufferedReader.readLine());
+        // 길이 1부터 50까지의 리스트 생성
+        for (int i = 0; i <= 50; i++) {
+            lengthList.add(new TreeSet<>());
         }
 
-        List<String> sortedByLength = alphabetSet.stream()
-                .sorted(Comparator.comparingInt(String::length)).collect(Collectors.toList());
-
-        for (String alphabet : sortedByLength) {
-            bufferedWriter.write(alphabet);
-            bufferedWriter.newLine();
+        // 문자열 입력 및 길이별 TreeSet에 추가
+        for (int i = 0; i < count; i++) {
+            String input = br.readLine();
+            int length = input.length();
+            if (length <= 50) {
+                lengthList.get(length).add(input);
+            }
         }
 
-        bufferedWriter.flush();
-        bufferedWriter.close();
-        bufferedReader.close();
+        // 출력
+        for (int i = 1; i <= 50; i++) {
+            TreeSet<String> set = lengthList.get(i);
+            for (String s : set) {
+                bw.write(s);
+                bw.newLine();
+            }
+        }
+
+        bw.flush();
+        br.close();
+        bw.close();
     }
 }
