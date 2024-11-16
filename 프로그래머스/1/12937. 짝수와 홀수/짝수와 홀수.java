@@ -4,5 +4,5 @@ class Solution {
 			return "Even";
 		else 
 			return "Odd";
-    }
+    } 
 }
