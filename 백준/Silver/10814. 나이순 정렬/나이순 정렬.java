@@ -2,16 +2,13 @@ import java.util.*;
 import java.io.*;
 
 class Main {
-    static int stoi (String s) {
-        return Integer.parseInt(s);
-    }
     
     public static void main (String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
         
-        int n = stoi(st.nextToken());
+        int n = Integer.parseInt(st.nextToken());
         
         List<String>[] list = new ArrayList[201];
         for (int i = 0; i < 201; i++) {
@@ -20,7 +17,7 @@ class Main {
         
         for (int i = 0; i < n; i++) {
             st = new StringTokenizer(br.readLine());
-            int age = stoi(st.nextToken());
+            int age = Integer.parseInt(st.nextToken());
             String name = st.nextToken();
             
             list[age].add(name);
