@@ -10,9 +10,9 @@ class Main {
         
         int n = Integer.parseInt(st.nextToken());
         
-        List<String>[] list = new ArrayList[201];
+        StringBuilder[] Blist = new StringBuilder[201];
         for (int i = 0; i < 201; i++) {
-            list[i] = new ArrayList<>();
+            Blist[i] = new StringBuilder();
         }
         
         for (int i = 0; i < n; i++) {
@@ -20,17 +20,15 @@ class Main {
             int age = Integer.parseInt(st.nextToken());
             String name = st.nextToken();
             
-            list[age].add(name);
+            Blist[age].append(age).append(" ").append(name).append("\n");  
         }
-        
-        StringBuilder sb = new StringBuilder();
         
         for (int i = 0; i < 201; i++) {
-            for (int j = 0; j < list[i].size(); j++) {
-                sb.append(i).append(" ").append(list[i].get(j)).append("\n");                
+            if (Blist[i].length() > 0) {
+                bw.write(Blist[i].toString());
             }
         }
-        bw.write(sb.toString());
+        
 		bw.flush();
         bw.close();
     }
