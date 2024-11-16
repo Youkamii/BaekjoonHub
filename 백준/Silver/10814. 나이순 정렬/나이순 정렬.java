@@ -8,6 +8,7 @@ class Main {
     
     public static void main (String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
         
         int n = stoi(st.nextToken());
@@ -25,13 +26,16 @@ class Main {
             list[age].add(name);
         }
         
+        StringBuilder sb = new StringBuilder();
+        
         for (int i = 0; i < 201; i++) {
             for (int j = 0; j < list[i].size(); j++) {
-                StringBuilder sb = new StringBuilder();
-                sb.append(i).append(" ").append(list[i].get(j));
-                System.out.println(sb);
+                sb.append(i).append(" ").append(list[i].get(j)).append("\n");                
             }
         }
+        bw.write(sb.toString());
+		bw.flush();
+        bw.close();
     }
     
 }
