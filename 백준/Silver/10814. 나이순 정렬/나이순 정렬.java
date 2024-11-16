@@ -18,9 +18,8 @@ class Main {
         for (int i = 0; i < n; i++) {
             st = new StringTokenizer(br.readLine());
             int age = Integer.parseInt(st.nextToken());
-            String name = st.nextToken();
             
-            Blist[age].append(age).append(" ").append(name).append("\n");  
+            Blist[age].append(age).append(" ").append(st.nextToken()).append("\n");  
         }
         
         for (int i = 0; i < 201; i++) {
