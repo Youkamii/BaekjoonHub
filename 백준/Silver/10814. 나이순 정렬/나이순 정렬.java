@@ -23,9 +23,7 @@ class Main {
         }
         
         for (int i = 0; i < 201; i++) {
-            if (Blist[i].length() > 0) {
-                bw.write(Blist[i].toString());
-            }
+            bw.write(Blist[i].toString());
         }
         
 		bw.flush();
