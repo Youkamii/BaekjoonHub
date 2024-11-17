@@ -8,17 +8,17 @@ class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(br.readLine());
 
-        List<Integer> list = new ArrayList<>();
+        int[] arr = new int[n];
         for (int i = 0; i < n; i++)
-            list.add(Integer.parseInt(br.readLine()));
+            arr[i] = Integer.parseInt(br.readLine());
 
-        Collections.sort(list);
+        Arrays.sort(arr);
 
         int r = (int) Math.round(n * 0.15);
         int sum = 0;
 
         for (int i = r; i < n - r; i++)
-            sum += list.get(i);
+            sum += arr[i];
 
         int count = n - 2 * r;
         int res = (int) Math.round((double) sum / count);
