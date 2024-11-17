@@ -6,9 +6,9 @@ class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        Scanner scanner = new Scanner(System.in);
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int sugar = scanner.nextInt();
+        int sugar = Integer.parseInt(st.nextToken());
         int t = 0;
 
         while (sugar % 5 != 0 && sugar > 2) {
