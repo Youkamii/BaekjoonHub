@@ -10,19 +10,23 @@ class Main {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
-        Map<String, String> dogam = new HashMap<>();
+        Map<Integer, String> intDogam = new HashMap<>();
+        Map<String, Integer> stringDogam = new HashMap<>();
 
         for (int i = 1; i <= n; i++) {
             String pokemon = br.readLine();
-            dogam.put(String.valueOf(i), pokemon);
-            dogam.put(pokemon, String.valueOf(i));
+            intDogam.put(i, pokemon);
+            stringDogam.put(pokemon, i);
         }
 
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < m; i++) {
             String q = br.readLine();
-            sb.append(dogam.get(q)).append("\n");
+            if (Character.isDigit(q.charAt(0)))
+                sb.append(intDogam.get(Integer.parseInt(q))).append("\n");
+            else
+                sb.append(stringDogam.get(q)).append("\n");
         }
 
         bw.write(sb.toString());
