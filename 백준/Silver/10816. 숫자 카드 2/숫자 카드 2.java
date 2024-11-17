@@ -26,10 +26,7 @@ class Main {
         st = new StringTokenizer (br.readLine());
         for (int i = 0; i < m; i++) {
             int key = stoi(st.nextToken());
-            if (map.containsKey(key))
-                sb.append(map.get(key)).append(" ");
-            else
-                sb.append("0 ");
+            sb.append(map.getOrDefault(key,  0)).append(' ');
         }
 
         bw.write(sb.toString());
