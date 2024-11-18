@@ -4,14 +4,14 @@ import java.util.*;
 public class Main {
     static int[][] tomato;
     static Queue<int[]> queue = new LinkedList<>();
-    static int dayCount = 0;
+    static int day = 0;
     static int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
     static int stoi(String s) {
         return Integer.parseInt(s);
-    } 
+    }
 
-    static void bfsTomato() {
+    static void bfs() {
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
@@ -32,12 +32,12 @@ public class Main {
                 }
             }
             if(!queue.isEmpty()) {
-                dayCount++;
+                day++;
             }
         }
     }
 
-    static boolean checkAllRed(int[][] tomato) {
+    static boolean Red(int[][] tomato) {
         for (int i = 0; i < tomato.length; i++) {
             for (int j = 0; j < tomato[i].length; j++)
                 if (tomato[i][j] == 0) return false;
@@ -62,10 +62,10 @@ public class Main {
             }
         }
 
-        bfsTomato();
+        bfs();
 
-        if (checkAllRed(tomato)) {
-            System.out.println(dayCount);
+        if (Red(tomato)) {
+            System.out.println(day);
         } else {
             System.out.println(-1);
         }
