@@ -4,38 +4,18 @@ public class Example
 {
     public static void Main()
     {
-        Console.Clear();
         String[] s = Console.ReadLine().Split(' ');
 
-        int a = Int32.Parse(s[0]);
-        int b = Int32.Parse(s[1]);
+        int n = Int32.Parse(s[0]);
+        int m = Int32.Parse(s[1]);
 
-        for (int j = 0; j < b; j++) {
-            for (int i = 0; i < a; i++) {
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
                 Console.Write("*");
             }
             Console.WriteLine();
-        }        
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
