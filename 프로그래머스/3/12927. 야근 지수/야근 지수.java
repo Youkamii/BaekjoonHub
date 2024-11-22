@@ -9,7 +9,7 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             if (maxHeap.isEmpty() || maxHeap.peek() == 0)
-                break;
+                break; 
             int maxWork = maxHeap.poll();
             maxHeap.add(maxWork - 1);
         }
