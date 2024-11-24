@@ -6,7 +6,7 @@ class Solution {
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 dfs104(computers, visited, i);
-                answer++;
+                answer++; 
             }
         }
         return answer;
