@@ -10,7 +10,7 @@ public class Solution {
             discount = n / 10;
         }
         
-        answer = n * 12000 + (k - discount) * 2000;
+        answer = n * 12000 + (k - discount) * 2000; 
         
         return answer;
     }
