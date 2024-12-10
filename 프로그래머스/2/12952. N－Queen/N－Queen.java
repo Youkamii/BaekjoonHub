@@ -9,7 +9,7 @@ class Solution {
         table = new boolean[n][n];
         placeQueens(0, n);
         return answer;
-    } 
+    }
 
     private void placeQueens(int row, int n) {
         if (row == n) {
