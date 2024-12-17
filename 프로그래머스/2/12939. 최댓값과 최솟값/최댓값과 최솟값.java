@@ -1,11 +1,11 @@
 class Solution {
-    public String solution(String s) {
+    public String solution(String str) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        String[] sc = s.split(" ");
+        String[] strArray = str.split(" ");
         
-        for (String ss : sc) {
-            int i = Integer.parseInt(ss);            
+        for (String s : strArray) {
+            int i = Integer.parseInt(s);            
             if (i > max) max = i;
             if (i < min) min = i;
         }
