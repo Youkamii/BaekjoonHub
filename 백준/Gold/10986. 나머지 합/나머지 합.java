@@ -21,7 +21,7 @@ class Main {
             array[(int)sum]++;
         }
         
-        bw.write(count + "\n");
+        bw.write(String.valueOf(count));
         bw.flush();
     }
 }
