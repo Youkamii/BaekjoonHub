@@ -1,5 +1,5 @@
 using System;
 
 public class Solution {
-    public int solution(int n, int t) { return n << t; }
+    public double solution(int n, int t) {return (n * Math.Pow(2, t));}
 }
