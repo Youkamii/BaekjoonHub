@@ -3,10 +3,8 @@ class Solution {
         StringBuilder odd = new StringBuilder();
         StringBuilder even = new StringBuilder();
         
-        for (int i : num_list) {
-            if (i % 2 == 0) even.append(i);
-            else odd.append(i);
-        }
+        for (int i : num_list)
+            (i % 2 == 0 ? odd : even).append(i);
         
         return Integer.parseInt(odd.toString()) 
             + Integer.parseInt(even.toString());
