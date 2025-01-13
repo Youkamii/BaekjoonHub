@@ -17,12 +17,9 @@ class Main {
             
             int qst = Integer.parseInt(br.readLine());
             st = new StringTokenizer(br.readLine());
-            for (int i = 0; i < qst; i++) {
-                int q = Integer.parseInt(st.nextToken());
-                bw.write(set.contains(q) ? "1\n" : "0\n");
-            }
+            for (int i = 0; i < qst; i++)
+                bw.write(set.contains(Integer.parseInt(st.nextToken())) ? "1\n" : "0\n");
         }      
 		bw.flush();
     }
-    
 }
