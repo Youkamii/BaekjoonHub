@@ -26,7 +26,6 @@ class Main {
             long count = 0;
 
             for (int len : arr) count += (len / mid);
-
             if (count >= n) {
                 res = mid;
                 low = mid + 1;
