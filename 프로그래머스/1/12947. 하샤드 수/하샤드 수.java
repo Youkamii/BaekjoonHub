@@ -7,7 +7,7 @@ class Solution {
 		while (tmp > 0) {
 			sum += tmp % 10;
 			tmp /= 10; 
-		}
+		} 
 		return (x % sum) == 0;
     }
 }
