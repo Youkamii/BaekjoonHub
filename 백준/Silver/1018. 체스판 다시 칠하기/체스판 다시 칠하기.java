@@ -36,8 +36,7 @@ public class Main {
         
         for (int i = 0; i < y; i++) {
             String currentX = br.readLine();
-            for (int j = 0; j < x; j++)
-                tile[i][j] = currentX.charAt(j);
+            for (int j = 0; j < x; j++) tile[i][j] = currentX.charAt(j);
         }
         
         int minCount = 32;
