@@ -1,20 +1,17 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Main {
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(String[] args) throws Exception {
-        new Main().solution();
-    }
-
-    private void solution() throws Exception {
-        long n = Long.parseLong(br.readLine());
-        int cnt = 0;
-        while (n > 3) {
-            cnt++;
-            n = n/2 + (n%2==1?1:0);
+        long cats = Long.parseLong(br.readLine());
+        int magicCount = 0;
+        
+        while (cats > 3) {
+            cats = cats/2 + (cats % 2 == 1 ? 1 : 0);
+            magicCount++;
         }
-        System.out.println(cnt + n);
+        
+        System.out.println(magicCount + cats);
     }
 }
