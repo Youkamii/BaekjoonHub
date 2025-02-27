@@ -7,12 +7,11 @@ class Solution {
         int m = Math.min(u, d);
         
         for (int i = 2; i <= m / 2; i++) {
-            while(u % i == 0 && d % i == 0) {
+            while(u % i == 0 && d % i == 0) { 
                 u /= i;
                 d /= i;
-            }
+            } 
         }
-
-        return new int[]{u, d};
+        return new int[] {u, d};
     }
 }
