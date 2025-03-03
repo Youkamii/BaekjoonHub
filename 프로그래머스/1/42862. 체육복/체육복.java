@@ -22,9 +22,7 @@ class Solution {
 			}
 		}
 		
-		for (int i : spare)
-			if (i >= 0) answer++;
-        
+		for (int i : spare) if (i >= 0) answer++;        
 		return answer;
     }
 }
