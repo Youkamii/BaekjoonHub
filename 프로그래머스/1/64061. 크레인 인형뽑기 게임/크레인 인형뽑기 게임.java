@@ -22,8 +22,7 @@ class Solution {
                     } 
                 }
             }
-        }
-        
+        }        
         return answer;
     }
     
