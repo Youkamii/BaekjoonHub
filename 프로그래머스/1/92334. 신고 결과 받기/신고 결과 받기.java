@@ -10,6 +10,7 @@ class Solution {
 			User nullList = new User();
 			user.put(s, nullList);
 		}
+        
 		for (String s : report) {
 			String[] reporting = s.split(" ");
 
@@ -33,12 +34,8 @@ class Solution {
 
 				if (reported.whoReportMe.size() >= k)
 					answer[i]++;
-
 			}
 		}
-
-
-
 		return answer;
     }
     
