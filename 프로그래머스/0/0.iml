@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/120583. 중복된 숫자 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120804. 두 수의 곱" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120808. 분수의 덧셈" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120809. 배열 두배 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120810. 나머지 구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120812. 최빈값 구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120813. 짝수는 싫어요" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120814. 피자 나눠 먹기 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120815. 피자 나눠 먹기 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120816. 피자 나눠 먹기 （3）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120818. 옷가게 할인 받기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120819. 아이스 아메리카노" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120820. 나이 출력" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120821. 배열 뒤집기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120823. 직각삼각형 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120825. 문자 반복 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120826. 특정 문자 제거하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120834. 외계행성의 나이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120835. 진료 순서 정하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120836. 순서쌍의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120840. 구슬을 나누는 경우의 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120842. 2차원으로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120843. 공 던지기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120844. 배열 회전시키기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120845. 주사위의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120846. 합성수 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120849. 모음 제거" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120850. 문자열 정렬하기 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120852. 소인수분해" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120853. 컨트롤 제트" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120860. 직사각형 넓이 구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120861. 캐릭터의 좌표" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120862. 최댓값 만들기 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120863. 다항식 더하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120864. 숨어있는 숫자의 덧셈 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120866. 안전지대" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120868. 삼각형의 완성조건 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120869. 외계어 사전" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120871. 저주의 숫자 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120875. 평행" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120876. 겹치는 선분의 길이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120878. 유한소수 판별하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120880. 특이한 정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120882. 등수 매기기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120883. 로그인 성공？" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120884. 치킨 쿠폰" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120885. 이진수 더하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120886. A로 B 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120887. k의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120888. 중복된 문자 제거" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120889. 삼각형의 완성조건 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120890. 가까운 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120891. 369게임" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120892. 암호 해독" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120894. 영어가 싫어요" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120896. 한 번만 등장한 문자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120897. 약수 구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120898. 편지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120899. 가장 큰 수 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120902. 문자열 계산하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120904. 숫자 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120907. OX퀴즈" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120908. 문자열안에 문자열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120909. 제곱수 판별하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120911. 문자열 정렬하기 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120912. 7의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120913. 잘라서 배열로 저장하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120921. 문자열 밀기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120922. 종이 자르기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120923. 연속된 수의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120924. 다음에 올 숫자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120956. 옹알이 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181829. 이차원 배열 대각선 순회하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181830. 정사각형으로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181831. 특별한 이차원 배열 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181832. 정수를 나선형으로 배치하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181833. 특별한 이차원 배열 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181834. l로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181835. 조건에 맞게 수열 변환하기 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181836. 그림 확대" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181837. 커피 심부름" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181838. 날짜 비교하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181839. 주사위 게임 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181840. 정수 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181841. 꼬리 문자열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181842. 부분 문자열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181843. 부분 문자열인지 확인하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181844. 배열의 원소 삭제하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181846. 두 수의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181847. 0 떼기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181848. 문자열을 정수로 변환하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181849. 문자열 정수의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181850. 정수 부분" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181851. 전국 대회 선발 고사" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181852. 뒤에서 5등 위로" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181853. 뒤에서 5등까지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181854. 배열의 길이에 따라 다른 연산하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181855. 문자열 묶기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181856. 배열 비교하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181857. 배열의 길이를 2의 거듭제곱으로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181858. 무작위로 K개의 수 뽑기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181859. 배열 만들기 6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181860. 빈 배열에 추가， 삭제하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181861. 배열의 원소만큼 추가하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181862. 세 개의 구분자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181863. rny＿string" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181864. 문자열 바꿔서 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181865. 간단한 식 계산하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181866. 문자열 잘라서 정렬하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181867. x 사이의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181868. 공백으로 구분하기 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181869. 공백으로 구분하기 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181870. ad 제거하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181871. 문자열이 몇 번 등장하는지 세기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181872. 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181873. 특정한 문자를 대문자로 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181874. A 강조하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181875. 배열에서 문자열 대소문자 변환하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181876. 소문자로 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181878. 원하는 문자열 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181879. 길이에 따른 연산" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181880. 1로 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181881. 조건에 맞게 수열 변환하기 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181882. 조건에 맞게 수열 변환하기 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181883. 수열과 구간 쿼리 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181885. 할 일 목록" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181888. n개 간격의 원소들" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181890. 왼쪽 오른쪽" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181891. 순서 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181892. n 번째 원소부터" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181893. 배열 조각하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181894. 2의 영역" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181895. 배열 만들기 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181897. 리스트 자르기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181898. 가까운 1 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181899. 카운트 다운" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181900. 글자 지우기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181901. 배열 만들기 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181902. 문자 개수 세기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181903. qr code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181904. 세로 읽기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181905. 문자열 뒤집기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181906. 접두사인지 확인하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181907. 문자열의 앞의 n글자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181908. 접미사인지 확인하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181909. 접미사 배열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181910. 문자열의 뒤의 n글자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181911. 부분 문자열 이어 붙여 문자열 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181912. 배열 만들기 5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181913. 문자열 여러 번 뒤집기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181914. 9로 나눈 나머지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181915. 글자 이어 붙여 문자열 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181916. 주사위 게임 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181917. 간단한 논리 연산" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181918. 배열 만들기 4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181920. 카운트 업" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181921. 배열 만들기 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181922. 수열과 구간 쿼리 4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181923. 수열과 구간 쿼리 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181924. 수열과 구간 쿼리 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181925. 수 조작하기 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181926. 수 조작하기 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181927. 마지막 두 원소" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181928. 이어 붙인 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181929. 원소들의 곱과 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181930. 주사위 게임 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181931. 등차수열의 특정한 항만 더하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181932. 코드 처리하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181933. flag에 따라 다른 값 반환하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181934. 조건 문자열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181936. 공배수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181938. 두 수의 연산값 비교하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181939. 더 크게 합치기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181941. 문자 리스트를 문자열로 변환하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181942. 문자열 섞기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181943. 문자열 겹쳐쓰기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181944. 홀짝 구분하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181945. 문자열 돌리기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181946. 문자열 붙여서 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181947. 덧셈식 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181948. 특수문자 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181949. 대소문자 바꿔서 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181950. 문자열 반복해서 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181951. a와 b 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/181952. 문자열 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/250126. ［PCCE 기출문제］ 8번 ／ 창고 정리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/250128. ［PCCE 기출문제］ 6번 ／ 가채점" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/250132. ［PCCE 기출문제］ 2번 ／ 피타고라스의 정리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/340200. ［PCCE 기출문제］ 8번 ／ 닉네임 규칙" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/340202. ［PCCE 기출문제］ 6번 ／ 물 부족" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/340205. ［PCCE 기출문제］ 3번 ／ 수 나누기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/340206. ［PCCE 기출문제］ 2번 ／ 각도 합치기" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

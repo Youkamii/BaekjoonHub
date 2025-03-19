@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1000. A＋B" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10250. ACM 호텔" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10809. 알파벳 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10989. 수 정렬하기 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11050. 이항 계수 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11382. 꼬마 정민" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15829. Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1978. 소수 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2231. 분해합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2292. 벌집" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2475. 검증수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2480. 주사위 세개" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2609. 최대공약수와 최소공배수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2775. 부녀회장이 될테야" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/27866. 문자와 문자열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/27961. 고양이는 많을수록 좋다" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2798. 블랙잭" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2869. 달팽이는 올라가고 싶다" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/28702. FizzBuzz" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2920. 음계" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/30802. 웰컴 키트" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/31403. $A ＋ B － C$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4153. 직각삼각형" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

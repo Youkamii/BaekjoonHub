@@ -8,7 +8,7 @@ public class Main{
             this.c = c;
         }
         double intersect(Line other){
-            return (double)(other.c - this.c)/(this.m - other.m);
+            return (double)(other.c - this.c) / (this.m - other.m);
         }
     }
     public static void main(String[] args)throws Exception{
