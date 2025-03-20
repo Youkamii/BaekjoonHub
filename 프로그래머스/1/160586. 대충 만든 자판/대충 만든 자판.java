@@ -6,7 +6,7 @@ class Solution {
         Map<Character, Integer> typeBoard = new HashMap<>();
          
         for (int k = 0; k < keymap.length; k++) {           
-            String key = keymap[k];            
+            String key = keymap[k];     
             
             for (int i = 0; i < key.length(); i++) {
                 char c = key.charAt(i);
