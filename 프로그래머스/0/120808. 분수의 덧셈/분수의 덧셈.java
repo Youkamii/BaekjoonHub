@@ -12,6 +12,7 @@ class Solution {
                 d /= i;
             } 
         }
+        
         return new int[] {u, d};
     }
 }
