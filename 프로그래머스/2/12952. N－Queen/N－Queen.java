@@ -8,7 +8,7 @@ class Solution {
     public int solution(int n) {
         table = new boolean[n][n];
         placeQueens(0, n);
-        return answer;
+        return answer; 
     }
 
     private void placeQueens(int row, int n) {
@@ -27,12 +27,10 @@ class Solution {
     }
 
     public boolean checkingPossible (int row, int col, int n) {
-
         if (!checkY(row, col, n))
             return false;
         else if(!checkD(row, col, n))
             return false;
-
         return true;
     }
 
@@ -47,12 +45,10 @@ class Solution {
 
     private boolean checkD(int row, int col, int n) {
         for (int i = 1; i <= row; i++) {
-            if (col - i >= 0 && table[row - i][col - i]) {
-                return false;
-            }
-            if (col + i < n && table[row - i][col + i]) {
-                return false;
-            }
+            if (col - i >= 0 && table[row - i][col - i])
+                return false;            
+            if (col + i < n && table[row - i][col + i])
+                return false;            
         }
         return true;
     }
