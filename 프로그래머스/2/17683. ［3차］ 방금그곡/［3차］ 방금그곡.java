@@ -5,7 +5,7 @@ class Solution {
         String answer = "(None)";
         int maxPlayTime = 0;
 
-        m = sharp(m); 
+        m = sharp(m);
 
         for (String musicinfo : musicinfos) {
             String[] parts = musicinfo.split(",");
