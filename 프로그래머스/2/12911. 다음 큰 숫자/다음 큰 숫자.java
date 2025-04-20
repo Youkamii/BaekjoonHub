@@ -1,17 +1,15 @@
 class Solution {
     public int solution(int n) {
         int n1 = binaryOneCounting(n);
-        int current = n + 1;        
+        int current = n + 1;     
         
         while (true) {
             int currentOne = binaryOneCounting(current);
             
             if (currentOne == n1)
                 return current;
-            current++;
-            
-        }
-        
+            current++;            
+        }        
     }
     
     public int binaryOneCounting(int num) {
