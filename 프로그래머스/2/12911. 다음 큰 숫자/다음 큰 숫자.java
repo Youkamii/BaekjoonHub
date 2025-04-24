@@ -4,8 +4,7 @@ class Solution {
         int current = n + 1;     
         
         while (true) {
-            int currentOne = binaryOneCounting(current);
-            
+            int currentOne = binaryOneCounting(current);            
             if (currentOne == n1)
                 return current;
             current++;            
