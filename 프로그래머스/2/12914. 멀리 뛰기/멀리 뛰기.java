@@ -9,9 +9,8 @@ class Solution {
 			tmp = a;
 			a = (a + b) % 1234567;
 			b = tmp;
-		} 
-		
-		return a;
+		}
         
+		return a;        
     }
 }
