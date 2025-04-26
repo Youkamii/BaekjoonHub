@@ -3,7 +3,6 @@ import java.util.*;
 class Solution {
     public static int solution(int[] p, int limit) {
         int answer = 0;
-
         Arrays.sort(p);
 
         int l = 0;
