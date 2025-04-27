@@ -1,16 +1,26 @@
-class Solution {
-    public String solution(String s) {
-		String answer = "";
-		char[] tmpArray = s.toCharArray(); 
+import java.util.*;
 
-		if ('a' <= tmpArray[0] && tmpArray[0] <= 'z')
-			tmpArray[0] -= 32;
-		for (int i = 0; i < tmpArray.length; i++){
-			if (i != 0 && tmpArray[i - 1] == ' ' && 'a' <= tmpArray[i] && tmpArray[i] <= 'z')
-				tmpArray[i] -= 32;
-			else if (i != 0 && tmpArray[i - 1] != ' ' && 'A' <= tmpArray[i] && tmpArray[i] <= 'Z')
-				tmpArray[i] += 32;
-		}
-		return new String(tmpArray);
+class Solution {
+    public StringBuilder solution(String s) {
+        StringBuilder answer = new StringBuilder();
+        boolean Fswitch = true;
+        
+        for (int i = 0; i < s.length(); i++ ) {
+            char c = s.charAt(i);
+            
+            if (c == ' ') {
+                answer.append(c);
+                Fswitch = true;
+            } else {
+                if (Fswitch) {
+                    answer.append(Character.toUpperCase(c));
+                    Fswitch = false;
+                } else {
+                    answer.append(Character.toLowerCase(c));
+                }
+            }
+        }
+        
+        return answer;
     }
 }
