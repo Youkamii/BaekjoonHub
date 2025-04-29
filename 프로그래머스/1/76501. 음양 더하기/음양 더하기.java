@@ -5,7 +5,10 @@ class Solution {
 		 
 		for (int i = 0; i < absolutes.length; i++) {
 			tmp = absolutes[i];
-			if (!(signs[i])) tmp *= -1;
+            
+			if (!(signs[i]))
+                tmp *= -1;
+            
 			answer += tmp;
 		}
 		return answer;
