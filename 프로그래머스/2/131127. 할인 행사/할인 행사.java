@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int solution(String[] want, int[] number, String[] discount) {
         
-		int answer = 0; 
+		int answer = 0;
 
 		Map<String, Integer> iWantIT = new HashMap<>();
 		for (int i = 0; i < want.length; i++)
