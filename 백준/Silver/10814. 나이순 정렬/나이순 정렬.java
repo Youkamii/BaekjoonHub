@@ -18,8 +18,6 @@ public class Main {
                 age = age * 10 + (line.charAt(j) - '0');
             buckets[age].append(line).append('\n');
         }
-        
-        br.close();
 
         StringBuilder out = new StringBuilder();
         for (StringBuilder sb : buckets) out.append(sb);
