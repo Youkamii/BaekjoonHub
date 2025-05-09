@@ -9,7 +9,7 @@ class Solution {
             char c = s.charAt(i);
             
             if (c == ' ') {
-                answer.append(c);
+                answer.append(c); 
                 Fswitch = true;
             } else {
                 if (Fswitch) {
