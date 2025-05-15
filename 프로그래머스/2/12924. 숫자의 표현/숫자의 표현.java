@@ -10,9 +10,8 @@ class Solution {
                     answer++;
                     break;
                 }
-                else if (sum > n) {
-                    break; 
-                }
+                else if (sum > n) 
+                    break;                 
             }
         }        
         return answer;
