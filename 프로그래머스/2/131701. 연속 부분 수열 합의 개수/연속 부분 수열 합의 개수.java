@@ -13,9 +13,8 @@ class Solution {
 		for (int cases = 1; cases <= Length; cases++) {
 			for (int i = 0; i < Length * 2 - cases; i++) {
 				int sum = 0;
-				for (int j = i; j < i + cases; j++) {
-					sum += doubleElements[j];
-				}
+				for (int j = i; j < i + cases; j++)
+					sum += doubleElements[j];				
 				answer.add(sum);
 			}
 		}
