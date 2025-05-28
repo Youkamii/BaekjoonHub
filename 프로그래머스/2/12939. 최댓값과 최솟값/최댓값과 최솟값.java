@@ -1,8 +1,8 @@
 class Solution {
-    public String solution(String str) {
+    public String solution(String str) { 
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        String[] strArray = str.split(" ");
+        String[] strArray = str.split(" "); 
         
         for (String s : strArray) {
             int i = Integer.parseInt(s);            
@@ -10,6 +10,6 @@ class Solution {
             if (i < min) min = i;
         }
         
-        return min + " " + max;
+        return min + " " + max; 
     }
 }
