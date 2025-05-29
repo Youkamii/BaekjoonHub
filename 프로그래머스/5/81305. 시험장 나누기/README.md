@@ -1,5 +1,5 @@
 # [level 5] 시험장 나누기 - 81305 
-
+ 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81305) 
 
 ### 성능 요약
