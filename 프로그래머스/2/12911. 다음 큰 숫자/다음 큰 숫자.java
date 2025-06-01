@@ -15,10 +15,8 @@ class Solution {
         String strBnr = Integer.toBinaryString(num);
         int one = 0;
         
-        for (int i = 0; i < strBnr.length(); i++) {
-            if (strBnr.charAt(i) == '1')
-                one++;
-        }
+        for (int i = 0; i < strBnr.length(); i++)
+            if (strBnr.charAt(i) == '1') one++;        
         return one;
     }
 }
