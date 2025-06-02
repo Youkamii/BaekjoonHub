@@ -11,8 +11,7 @@ class Solution {
 	}
 
 	public int Fibonacci_2 (int n) {
-		if (n <= 1)
-			return n;
+		if (n <= 1) return n;
 
 		int tmp;
 		int num1 = 1;
