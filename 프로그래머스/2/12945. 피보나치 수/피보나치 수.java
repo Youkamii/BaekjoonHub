@@ -4,10 +4,8 @@ class Solution {
 	}
 
 	public int Fibonacci_1 (int n) {
-		if (n <= 1)
-			return n;
-		else
-			return Fibonacci_1(n - 1) + Fibonacci_1(n - 2);
+		if (n <= 1) return n;
+		else return Fibonacci_1(n - 1) + Fibonacci_1(n - 2);
 	}
 
 	public int Fibonacci_2 (int n) {
