@@ -8,10 +8,8 @@ class Solution
 		Arrays.sort(B);
 		int answer = 0;
 		int length = A.length - 1;
-
 		for (int i = 0; i <= length; i++)
 			answer += A[i] * B[length - i];
-
 		return answer;
     }
 }
