@@ -8,7 +8,6 @@ class Solution {
 			tangerineSize.put(size, tangerineSize.getOrDefault(size, 0) + 1);
  
 		List<Map.Entry<Integer, Integer>> entries = new ArrayList<>(tangerineSize.entrySet());
-
 		entries.sort((a, b) -> b.getValue().compareTo(a.getValue()));
  
 		int box = 0; 
