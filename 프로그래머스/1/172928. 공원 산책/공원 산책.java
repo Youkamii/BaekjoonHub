@@ -8,10 +8,8 @@ class Solution {
 
 		for (int i = 0; i < park.length; i++) {
 			map[i] = park[i].split("");
-			for (int j = 0; j < map[i].length; j++) { 
-				if (Objects.equals(map[i][j], "S"))
-					whereIsMyDoggy = new int[]{i, j};
-			}
+			for (int j = 0; j < map[i].length; j++)
+				if (Objects.equals(map[i][j], "S")) whereIsMyDoggy = new int[]{i, j};			
 		}
 
 		for (String s : routes) {
