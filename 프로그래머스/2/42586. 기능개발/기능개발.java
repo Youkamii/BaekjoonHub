@@ -10,10 +10,8 @@ class Solution {
 
 		int count = 1;
 		int longestDay = jobDone[0];
-
 		for (int i = 1; i < jobDone.length; i++) {
-			if (longestDay >= jobDone[i])
-				count++;
+			if (longestDay >= jobDone[i]) count++;
 			else {
 				answerList.add(count);
 				count = 1;
@@ -22,12 +20,9 @@ class Solution {
 		}
 
 		answerList.add(count);
-
 		int[] answer = new int[answerList.size()];
-
-		for (int i = 0; i < answer.length; i++) {
+		for (int i = 0; i < answer.length; i++)
 			answer[i] = answerList.get(i);
-        }
 
 		return answer;
     }
