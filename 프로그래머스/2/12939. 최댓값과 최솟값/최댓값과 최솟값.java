@@ -8,7 +8,7 @@ class Solution {
             int i = Integer.parseInt(s);            
             if (i > max) max = i;
             if (i < min) min = i;
-        }        
+        }    
         return min + " " + max; 
     }
 }
