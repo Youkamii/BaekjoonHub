@@ -10,5 +10,5 @@ class Solution {
             if (i < min) min = i;
         }    
         return min + " " + max; 
-    }
+    } 
 }
