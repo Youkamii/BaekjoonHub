@@ -11,5 +11,5 @@ class Solution
 		for (int i = 0; i <= length; i++)
 			answer += A[i] * B[length - i];
 		return answer;
-    }
+    } 
 }
