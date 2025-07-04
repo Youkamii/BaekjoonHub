@@ -21,7 +21,6 @@ class Main {
             x = Integer.parseInt(st.nextToken());
             y = Integer.parseInt(st.nextToken());
             int worm = Integer.parseInt(st.nextToken());
-
             farm = new int[y][x];
             visited = new boolean[y][x];
 

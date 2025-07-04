@@ -18,9 +18,11 @@ public class Main {
                 int[] cur = queue.poll();
                 int curY = cur[0];
                 int curX = cur[1];
+
                 for (int[] dir : directions) {
                     int nextY = curY + dir[0];
                     int nextX = curX + dir[1];
+
                     if (nextY >= 0
                         && nextX >= 0
                         && nextY < tomato.length
@@ -31,17 +33,13 @@ public class Main {
                     }
                 }
             }
-            if(!queue.isEmpty()) {
-                dayCount++;
-            }
+            if(!queue.isEmpty()) dayCount++;
         }
     }
 
     static boolean checkAllRed(int[][] tomato) {
-        for (int i = 0; i < tomato.length; i++) {
-            for (int j = 0; j < tomato[i].length; j++)
-                if (tomato[i][j] == 0) return false;
-        }
+        for (int i = 0; i < tomato.length; i++)
+            for (int j = 0; j < tomato[i].length; j++) if (tomato[i][j] == 0) return false;
         return true;
     }
 

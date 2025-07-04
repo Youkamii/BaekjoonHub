@@ -70,7 +70,7 @@ public class Main {
     static int maxFlow() {
         int flow = 0;
         while (bfs()) {
-            ptr = new int[nodeCount * 2]; // 여기에서 크기를 수정합니다.
+            ptr = new int[nodeCount * 2];
             int pushed;
             while ((pushed = dfs(source, INF)) > 0) {
                 flow += pushed;

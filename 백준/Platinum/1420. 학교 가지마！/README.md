@@ -1,6 +1,6 @@
 # [Platinum II] 학교 가지마! - 1420 
 
-[문제 링크](https://www.acmicpc.net/problem/1420) 
+[문제 링크](https://www.acmicpc.net/problem/1420)
 
 ### 성능 요약
 

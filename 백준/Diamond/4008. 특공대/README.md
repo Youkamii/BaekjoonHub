@@ -1,6 +1,6 @@
 # [Diamond V] 특공대 - 4008 
 
-[문제 링크](https://www.acmicpc.net/problem/4008) 
+[문제 링크](https://www.acmicpc.net/problem/4008)
 
 ### 성능 요약
 

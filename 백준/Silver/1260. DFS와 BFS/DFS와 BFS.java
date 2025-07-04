@@ -26,7 +26,6 @@ class Main {
         }
 
         for (int i = 1; i <= N; i++) Collections.sort(graph[i]);
-
         sb = new StringBuilder();
         visited = new boolean[N + 1];
         dfs(V);
