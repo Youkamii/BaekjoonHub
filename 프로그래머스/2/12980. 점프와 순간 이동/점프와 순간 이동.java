@@ -9,5 +9,5 @@ public class Solution {
             if(bnrN2Str.charAt(i) == '1') answer++;        
         
         return answer;
-    }
+    }       
 }
