@@ -5,8 +5,7 @@ class Solution {
         
         while (true) {
             int currentOne = binaryOneCounting(current);            
-            if (currentOne == n1)
-                return current;
+            if (currentOne == n1) return current;
             current++;            
         }        
     }
