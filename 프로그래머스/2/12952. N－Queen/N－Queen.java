@@ -10,13 +10,11 @@ class Solution {
         placeQueens(0, n);
         return answer; 
     }
-
     private void placeQueens(int row, int n) {
         if (row == n) {
             answer++;
             return;
         }
-        
         for (int col = 0; col < n; col++) {
             if (checkingPossible(row, col, n)) {
                 table[row][col] = true;
@@ -36,9 +34,8 @@ class Solution {
 
     private boolean checkY(int row, int col, int n) {
         for (int i = 0; i < row; i++) {
-            if (table[i][col]) {
+            if (table[i][col])
                 return false;
-            }
         }
         return true;
     }

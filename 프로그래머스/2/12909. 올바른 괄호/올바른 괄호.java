@@ -9,7 +9,7 @@ class Solution {
             else {
                 if (stack.isEmpty()) return false;                
                 stack.pop();
-            } 
+            }
         }
         return stack.isEmpty();
     }
