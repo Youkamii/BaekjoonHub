@@ -16,11 +16,8 @@ class Solution {
 
 			Boolean 지금이니 = true;
 
-			if (!iWantIT.equals(discountSchedule))
-				지금이니 = false;
-
-			if (지금이니)
-				answer++;
+			if (!iWantIT.equals(discountSchedule)) 지금이니 = false;
+			if (지금이니) answer++;
 		}
 
 		return answer;
