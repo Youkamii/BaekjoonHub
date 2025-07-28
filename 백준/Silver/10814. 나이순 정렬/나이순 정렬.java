@@ -20,8 +20,7 @@ public class Main {
         }
 
         StringBuilder out = new StringBuilder();
-        for (StringBuilder sb : buckets) out.append(sb);
-        bw.write(out.toString());
+        for (StringBuilder sb : buckets) bw.write(sb.toString());
         bw.flush();
     }
 }
