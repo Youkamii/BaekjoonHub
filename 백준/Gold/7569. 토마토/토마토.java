@@ -1,68 +1,35 @@
 import java.io.*;
-import java.util.*;
-
-public class Main {
-    static final int[] dx = {1,-1, 0, 0, 0, 0};
-    static final int[] dy = {0, 0, 1,-1, 0, 0};
-    static final int[] dz = {0, 0, 0, 0, 1,-1};
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-
-        int m = Integer.parseInt(st.nextToken());
-        int n = Integer.parseInt(st.nextToken());
-        int h = Integer.parseInt(st.nextToken());
-
-        int[][][] box = new int[h][n][m];
-        ArrayDeque<int[]> dq = new ArrayDeque<>();
-
-        for (int z = 0; z < h; z++) {
-            for (int y = 0; y < n; y++) {
-                st = new StringTokenizer(br.readLine());
-                for (int x = 0; x < m; x++) {
-                    int tomato = Integer.parseInt(st.nextToken());
-                    box[z][y][x] = tomato;
-                    if (tomato == 1) {
-                        dq.add(new int[]{z, y, x});
-                    }
+public class Main{
+    static final class F{
+        InputStream i=System.in; byte[] b=new byte[1<<16]; int p,l;
+        int r() throws IOException{ if(p>=l){ l=i.read(b); p=0; if(l<=0) return -1;} return b[p++]; }
+        int n() throws IOException{ int c=r(),s=1,v=0; while(c<=32)c=r(); if(c=='-'){ s=-1; c=r(); } while(c>32){ v=v*10+c-48; c=r(); } return v*s; }
+    }
+    public static void main(String[] a) throws Exception{
+        F f=new F();
+        int M=f.n(),N=f.n(),H=f.n(),nm=N*M;
+        int[] g=new int[nm*H],qx=new int[nm*H],qy=new int[nm*H],qz=new int[nm*H];
+        int h=0,u=0,c=0,m=1;
+        for(int z=0;z<H;z++){
+            int bz=z*nm;
+            for(int y=0;y<N;y++){
+                int by=bz+y*M;
+                for(int x=0;x<M;x++){
+                    int v=f.n(),idx=by+x;
+                    g[idx]=v;
+                    if(v==0)c++; else if(v==1){ qx[u]=x;qy[u]=y;qz[u]=z;u++; }
                 }
             }
         }
-        
-        while(!dq.isEmpty()) {
-            int[] cur = dq.poll();
-            int z = cur[0];
-            int y = cur[1];
-            int x = cur[2];
-            
-            for (int d = 0; d < 6; d++) {
-                int nxt = x + dx[d];
-                int nyt = y + dy[d];
-                int nzt = z + dz[d];
-                
-                if (nxt < 0 || nyt < 0 || nzt < 0 || nxt >= m || nyt >= n || nzt >= h)
-                    continue;
-                 if (box[nzt][nyt][nxt] == 0) {
-                    box[nzt][nyt][nxt] = box[z][y][x] + 1;
-                    dq.add(new int[]{nzt, nyt, nxt});
-                }
-            }
+        while(h<u){
+            int x=qx[h],y=qy[h],z=qz[h],idx=z*nm+y*M+x,d=g[idx]; h++;
+            if(x+1<M){ int nidx=idx+1; if(g[nidx]==0){ g[nidx]=d+1; if(--c==0){ System.out.print(d); return;} if(d+1>m)m=d+1; qx[u]=x+1;qy[u]=y;qz[u]=z;u++; } }
+            if(x>0){ int nidx=idx-1; if(g[nidx]==0){ g[nidx]=d+1; if(--c==0){ System.out.print(d); return;} if(d+1>m)m=d+1; qx[u]=x-1;qy[u]=y;qz[u]=z;u++; } }
+            if(y+1<N){ int nidx=idx+M; if(g[nidx]==0){ g[nidx]=d+1; if(--c==0){ System.out.print(d); return;} if(d+1>m)m=d+1; qx[u]=x;qy[u]=y+1;qz[u]=z;u++; } }
+            if(y>0){ int nidx=idx-M; if(g[nidx]==0){ g[nidx]=d+1; if(--c==0){ System.out.print(d); return;} if(d+1>m)m=d+1; qx[u]=x;qy[u]=y-1;qz[u]=z;u++; } }
+            if(z+1<H){ int nidx=idx+nm; if(g[nidx]==0){ g[nidx]=d+1; if(--c==0){ System.out.print(d); return;} if(d+1>m)m=d+1; qx[u]=x;qy[u]=y;qz[u]=z+1;u++; } }
+            if(z>0){ int nidx=idx-nm; if(g[nidx]==0){ g[nidx]=d+1; if(--c==0){ System.out.print(d); return;} if(d+1>m)m=d+1; qx[u]=x;qy[u]=y;qz[u]=z-1;u++; } }
         }
-        
-        int max = 0;
-        for (int z = 0; z < h; z++) {
-            for (int y = 0; y < n; y++) {
-                for (int x = 0; x < m; x++) {
-                    if (box[z][y][x] == 0) {
-                        System.out.println(-1);
-                        return;
-                    }
-                    if (box[z][y][x] > max)
-                        max = box[z][y][x];
-                }
-            }
-        }
-        System.out.println(max - 1);
+        if(c>0)System.out.print(-1); else System.out.print(m-1);
     }
 }
