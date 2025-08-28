@@ -8,3 +8,4 @@ WHERE
     FF.ADDRESS LIKE '강원도%'
 ORDER BY
     FF.FACTORY_ID ASC
+    
