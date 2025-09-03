@@ -4,7 +4,7 @@ class Solution {
     public int solution(int[] citations) {
         int answer = 0;
         int citationsLength = citations.length;
-        Arrays.sort(citations);
+        Arrays.sort(citations); 
  
         for (int i = 1; i <= citationsLength; i++) {
             int hIndex = 0;
