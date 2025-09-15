@@ -1,0 +1,14 @@
+SELECT
+    PT_NAME,
+    PT_NO,
+    GEND_CD,
+    AGE,
+    COALESCE(TLNO, 'NONE')
+FROM
+    PATIENT
+WHERE
+    GEND_CD	= 'W'
+    AND
+    AGE < 13
+ORDER BY
+    AGE DESC, PT_NAME ASC;
