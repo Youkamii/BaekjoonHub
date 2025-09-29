@@ -5,4 +5,4 @@ FROM
 JOIN
     CART_PRODUCTS CP2 ON CP1.CART_ID = CP2.CART_ID
 WHERE
-    CP1.NAME = 'Milk' AND CP2.NAME = 'Yogurt'
+    CP1.NAME = 'Milk' AND CP2.NAME = 'Yogurt' 
