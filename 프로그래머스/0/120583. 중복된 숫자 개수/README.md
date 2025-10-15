@@ -1,4 +1,4 @@
-# [level 0] 중복된 숫자 개수 - 120583 
+# [level 0] 중복된 숫자 개수 - 120583 test
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120583)
 
