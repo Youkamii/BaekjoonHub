@@ -22,9 +22,9 @@ public class Main {
         }
 
         for (int i = 1; i <= 200; i++) {
-            if (b[i] != null && b[i].length() > 0) {
+            if (b[i] != null && b[i].length() > 0)
                 w.write(b[i].toString());
-            }
+            
         }
         w.flush();
         w.close();
@@ -38,10 +38,12 @@ public class Main {
         int nextInt() throws Exception {
             int n = 0;
             byte c;
+            
             while ((c = read()) <= 32);
             do {
                 n = (n << 3) + (n << 1) + (c & 15);
             } while (isNumber(c = read()));
+            
             return n;
         }
 
@@ -51,6 +53,7 @@ public class Main {
                 sb.append((char)c);
                 c = read();
             }
+            
             sb.append('\n');
         }
 
@@ -61,8 +64,10 @@ public class Main {
         byte read() throws Exception {
             if (index == size) {
                 size = System.in.read(buffer, index = 0, SIZE);
-                if (size == -1) return -1;
+                if (size == -1)
+                    return -1;
             }
+            
             return buffer[index++];
         }
     }
